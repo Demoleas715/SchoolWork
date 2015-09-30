@@ -20,6 +20,6 @@ conversion=input("Would you like to calculate compound or simple interest")
 #Conversion choice
 if conversion == "compound":
     print ("Your total is $%s" % round(compoundinterest, 2))
-if conversion =="simple": 
+elif conversion =="simple": 
     print ("Your total is $%s" % round(simpleinterest, 2))
 #Interest total answer
