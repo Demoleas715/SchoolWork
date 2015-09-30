@@ -21,7 +21,7 @@ while(coin!='e'):
         principal=principal+q
         print('You deposited a quarter!')
     else:
-        print("ERROR!!!")
+        print("Invalid Option\n\t(p) - Deposit a penny\n\t(n) - Deposit a nickel\n\t(d) - Deposit a dime\n\t(q) - Deposit a quarter\n\t(e) - Exit program and give balance")
 #Error statement for unkown coin select
     coin=input('Select a coin to add')
 #Coin select input
